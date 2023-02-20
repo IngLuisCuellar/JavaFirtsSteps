@@ -5,19 +5,14 @@ public class EjemploCondicionales {
 		System.out.println("Condicionales");
 
 		int edad = 17;
-		int cantidad = 2;
+		int cantidadPersonas = 2;
 
-		if (edad >= 18) {
+		// || --> Condicional O
+		// && --> Condicional y
+		if (edad >= 18 || cantidadPersonas >= 2) {
 			System.out.println("Usted puede entrar");
-		}
-		else {
-			if(cantidad <= 2) {
-				System.out.println("Usted es menor de"
-						+ " edad acompañado, puede entrar");
-			}else {
-				System.out.println("Usted no está permitido"
-						+ " para entrar");
+		} else {
+			System.out.println("Usted no está permitido para entrar");
 		}
 	}
-
 }
