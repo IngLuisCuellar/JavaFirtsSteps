@@ -11,7 +11,10 @@ public class EjemploCondicionales {
 
 		// || --> Condicional O
 		// && --> Condicional y
-		if (edad >= 18 && esPareja) {
+		
+		boolean puedeEntrar = edad >= 18 && esPareja;
+		
+		if (puedeEntrar) {
 			System.out.println("Usted puede entrar");
 		} else {
 			System.out.println("Usted no está permitido para entrar");
