@@ -7,7 +7,7 @@ public class EjemploCondicionales {
 		int edad = 21;
 		int cantidadPersonas = 2;
 		
-		boolean esPareja = true; //Almacena valor de true o false 
+		boolean esPareja = cantidadPersonas > 1; //Almacena valor de true o false 
 
 		// || --> Condicional O
 		// && --> Condicional y
