@@ -5,12 +5,7 @@ public class EjercicioMatriz {
 		System.out.println();
 		
 		for(int fila = 0; fila <=10; fila++) {
-			for(int columna = 0 ; columna <= 10; columna++) {
-				
-				if (columna > fila) {
-					break;
-				}
-				
+			for(int columna = 0 ; columna < fila; columna++) {
 				System.out.print("*");
 				System.out.print(" ");
 			}
